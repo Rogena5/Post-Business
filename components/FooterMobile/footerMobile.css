@@ -1,0 +1,14 @@
+.footer-mobile-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #ff6e6e;
+  height: 79px;
+}
+.footer-mobile-root > span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}

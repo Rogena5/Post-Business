@@ -1,0 +1,73 @@
+.ItemCard-box {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding:  22px 20px ;
+	width: 315px;
+	height: 360px;
+	gap: 13px;
+	filter: drop-shadow(0px 0px 8px rgba(128, 128, 128, 0.25));
+}
+.ItemCard-box-mob {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding: 14px;
+	width: 155px;
+	gap: 10px;
+	filter: drop-shadow(0px 0px 8px rgba(128, 128, 128, 0.25));
+}
+
+.img-wrapper,
+.img-wrapper-mob {
+	width: 100%;
+}
+.img-wrapper > img {
+	width: inherit;
+	height: 180px
+}
+.img-wrapper-mob > img {
+	width: inherit;
+	height: 85px}
+
+.info-ItemCard-box {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 12px;
+}
+.title-box {
+	font-weight: 700 !important;
+	font-size: 20px !important;
+	line-height: 24px !important;
+	color: #000000 !important;
+}
+.name-city-box {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.name-city-box > span {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 19px;
+	/* identical to box height */
+
+	color: #535461;
+}
+.para {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 19px;
+	text-align: justify;
+	color: #535461;
+	
+}

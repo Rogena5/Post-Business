@@ -1,0 +1,102 @@
+.headerTextUnder-style {
+    position: absolute;
+    /* bottom: -12px; */
+    bottom: 20px;
+    left: -16px;
+    width: 196px;
+    height: 15px;
+    
+  }
+  .headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerButton > span {
+    padding: 7px 47px;
+    background: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .headerButton > span:first-child {
+    border-radius: 50px 0px 0px 50px;
+  }
+  .headerButton > span:nth-child(2) {
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #5de296;
+  }
+  .headerButton > span:last-child {
+    border-radius: 0px 50px 50px 0px;
+  }
+  .headerFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 101px;
+    width: 1027px;
+    background: #fff;
+    border-radius: 20px;
+    box-sizing: content-box;
+    padding: 20px 40px 20px 40px;
+    gap: 24px
+  }
+  .headerFilter > div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px 0px 16px 24px;
+    /* padding: 23px 40px; */
+    gap: 11px;
+    /* width: 204px; */
+    width: 90%;
+    border-left: 1px solid #5de296 ;
+  }
+  .headerFilter > div:first-child{
+      border: none;
+  }
+  
+  .headerFilter > div > label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #1f2041;
+  } 
+   .headerFilter > div > select {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21.86px;
+    color: #707075;
+    border: none;
+  }
+  .headerFilter > div > select:focus {
+    outline: none;
+    border: none;
+  }
+   .headerFilter > div > input {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #707075;
+    border: none;
+  } 
+  .headerFilter > div:last-child {
+    position: relative;
+    width: 250px;
+  }
+  
+  /* .mobileHeader{
+    color: white;
+    font-size: 25px;
+    display: flex;
+
+  } */
+
+  @media only screen and (max-width: 480px) {
+    .homeHeader-root {
+      height: 50vh;
+    }
+  }

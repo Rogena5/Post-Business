@@ -1,0 +1,66 @@
+[
+    {"id" : "1",
+      "name": "Cafe Roma",
+      "rating": 4.5,
+      "city": "San Francisco",
+      "image": "https://example.com/cafe-roma.png"
+    },
+    {
+      "id" : "2",
+      "name": "La Petite France",
+      "rating": 4.2,
+      "city": "Paris",
+      "image": "https://example.com/la-petite-france.png"
+    },
+    {
+      "id" : "3",
+      "name": "La Petite France",
+      "rating": 4.2,
+      "city": "Paris",
+      "image": "https://example.com/la-petite-france.png"
+    },
+    {
+      "id" : "4",
+        "name": "Cafe Roma",
+        "rating": 4.5,
+        "city": "San Francisco",
+        "image": "https://example.com/cafe-roma.png"
+      },
+      {
+        "id" : "5",
+        "name": "La Petite France",
+        "rating": 4.2,
+        "city": "Paris",
+        "image": "https://example.com/la-petite-france.png"
+      },
+      {"id" : "6",
+        "name": "La Petite France",
+        "rating": 4.2,
+        "city": "Paris",
+        "image": "https://example.com/la-petite-france.png"
+      },
+      {"id" : "7",
+        "name": "Cafe Roma",
+        "rating": 4.5,
+        "city": "San Francisco",
+        "image": "https://example.com/cafe-roma.png"
+      },
+      {"id" : "8",
+        "name": "La Petite France",
+        "rating": 4.2,
+        "city": "Paris",
+        "image": "https://example.com/la-petite-france.png"
+      },
+      {"id" : "9",
+        "name": "La Petite France",
+        "rating": 4.2,
+        "city": "Paris",
+        "image": "https://example.com/la-petite-france.png"
+      },
+    {"id" : "9",
+      "name": "Sushi Taro",
+      "rating": 4.8,
+      "city": "Tokyo",
+      "image": "https://example.com/sushi-taro.png"
+    }
+]

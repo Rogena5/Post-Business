@@ -1,0 +1,81 @@
+{
+    "Restaurants": [
+      { 
+        "id": 1,
+        "name": "Cafe Roma",
+        "rating": 4.5,
+        "city": "San Francisco",
+        "image": "https://example.com/cafe-roma.png"
+      },
+      { "id" :2,
+        "name": "La Petite France",
+        "rating": 4.2,
+        "city": "Paris",
+        "image": "https://example.com/la-petite-france.png"
+      },
+      { "id" :3,
+        "name": "La Petite France",
+        "rating": 4.2,
+        "city": "Paris",
+        "image": "https://example.com/la-petite-france.png"
+      },
+      { "id" : 4,
+        "name": "Sushi Taro",
+        "rating": 4.8,
+        "city": "Tokyo",
+        "image": "https://example.com/sushi-taro.png"
+      }
+    ],
+    "Spas & Saloons": [
+      {
+        "name": "Oasis Spa",
+        "rating": 4.3,
+        "city": "Bangkok",
+        "image": "https://example.com/oasis-spa.png"
+      },
+      {
+        "name": "Serenity Spa",
+        "rating": 4.6,
+        "city": "New York City",
+        "image": "https://example.com/serenity-spa.png"
+      },
+      {
+        "name": "Serenity Spa",
+        "rating": 4.6,
+        "city": "New York City",
+        "image": "https://example.com/serenity-spa.png"
+      },
+      {
+        "name": "Spa by JW",
+        "rating": 4.1,
+        "city": "Dubai",
+        "image": "https://example.com/spa-by-jw.png"
+      }
+    ],
+    "Massage centers": [
+      {
+        "name": "Tranquil Touch",
+        "rating": 4.9,
+        "city": "Sydney",
+        "image": "https://example.com/tranquil-touch.png"
+      },
+      {
+        "name": "Healing Hands",
+        "rating": 4.4,
+        "city": "London",
+        "image": "https://example.com/healing-hands.png"
+      },
+      {
+        "name": "Healing Hands",
+        "rating": 4.4,
+        "city": "London",
+        "image": "https://example.com/healing-hands.png"
+      },
+      {
+        "name": "Body Bliss",
+        "rating": 4.7,
+        "city": "Los Angeles",
+        "image": "https://example.com/body-bliss.png"
+      }
+    ]
+  }

@@ -1,0 +1,103 @@
+.mainRoot {
+	width: 50%;
+	left: 50%;
+	box-sizing: border-box;
+	position: fixed;
+	background: white;
+	z-index: 13;
+	gap: 50px;
+	display: flex;
+	flex-direction: column;
+	padding: 100px 0px;
+	animation: hellow 1s ease-in-out forwards;
+}
+.mainRootDisplay {
+	display: none;
+}
+@keyframes hellow {
+	0% {
+		height: 0vh;
+		opacity: 0;
+	}
+	100% {
+		height: 100vh;
+		opacity: 1;
+	}
+}
+
+.nav-menu-root {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: start;
+	gap: 30px;
+}
+.nav-menu-root > a {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 30px;
+}
+.nav-menu-root > a > span {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	widows: 100%;
+	gap: 10px;
+}
+.signUp-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #727272;
+}
+.signUp-nav > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.signUp-nav > div:nth-child(1) {
+	gap: 10px;
+}
+.signUp-nav > div:nth-child(2) {
+	font-size: 38px;
+}
+.signUp-nav > div:nth-child(1) > img {
+	width: 20px;
+	height: 33px;
+}
+.signUp-nav > div:nth-child(1) > span {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 23px;
+	color: #727272;
+}
+.loginSignup {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.loginSignup > button:first-child {
+	width: 86px;
+	height: 38px;
+	border: none;
+	background: #ff1942;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+.loginSignup > button:last-child {
+	width: 86px;
+	height: 38px;
+	border: 1px solid #ff1942;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ff1942;
+}
