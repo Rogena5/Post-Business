@@ -96,7 +96,7 @@ const Home = () => {
 					{!isMobile && (
 						<IoIosArrowBack
 							size={40}
-							onClick={() => handleScrollLeft('moveCaro1')}
+							onClick={() => handleScrollLeft('moveCaro2')}
 						/>
 					)}
 					<div
@@ -107,7 +107,7 @@ const Home = () => {
 					{!isMobile && (
 						<IoIosArrowForward
 							size={40}
-							onClick={() => handleScrollRight('moveCaro1')}
+							onClick={() => handleScrollRight('moveCaro2')}
 						/>
 					)}
 				</div>
@@ -139,7 +139,7 @@ const Home = () => {
 					{!isMobile && (
 						<IoIosArrowBack
 							size={40}
-							onClick={() => handleScrollLeft('moveCaro1')}
+							onClick={() => handleScrollLeft('moveCaro3')}
 						/>
 					)}
 					<div
@@ -150,7 +150,7 @@ const Home = () => {
 					{!isMobile && (
 						<IoIosArrowForward
 							size={40}
-							onClick={() => handleScrollRight('moveCaro1')}
+							onClick={() => handleScrollRight('moveCaro3')}
 						/>
 					)}
 				</div>

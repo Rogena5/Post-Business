@@ -18,6 +18,7 @@ function page({ isShow }) {
 				<DetailedPost />
 			</div>
 			<div className='pt-10'>
+				
 				<CardMapView />
 			</div>
 		</section>
